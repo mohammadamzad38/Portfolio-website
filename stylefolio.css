@@ -7,12 +7,11 @@
       "wdth" 100;
   }
 /* shared style */
-.h-banner{
+.h-banner {
     background-image: url("../portfolio-resources-main/images/developer.png"), url("portfolio-resources-main/images/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    /* margin-right: 23px; */
-    
+    margin-left: 17px;
 }
 .text-primary{
     color: #FD6E0A;
@@ -51,6 +50,7 @@ nav li a {
     color: black;
 
 }
+/* button modify */
 .btn{
     background-color: #FD6E0A;
     font-family: Open Sans;
@@ -58,9 +58,17 @@ nav li a {
     font-size: 20px;
     padding: 18px 35px;
     border-radius: 5px;
+    border: none;
     color: rgb(255, 255, 255);
     
  
+}
+#mod-btn{
+    margin-right: 15px;
+}
+.banner-btn-content{
+    max-width: 700px;
+
 }
 /* banner styles */
 .banner{
@@ -71,8 +79,8 @@ nav li a {
     
 
 }
-.banner-content{
-    max-width: 580px;
+.banner-content {
+    width: 50%;
 }
 .banner-greetings{
     color: black;
@@ -85,19 +93,50 @@ nav li a {
     font-family: Open Sans;
     font-size: 85px;
     margin-bottom: 20px;
+    width: 50%;
 
 }
 p{
     color: rgb(117, 117, 117);
     font-family: Open Sans;
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .banner-profile-picture{
    
     width: 584px;
     height: 676px;
+}
 
+/* Section style */
+main {
+    background: white;
+}
+#body-conten {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 130px;
+}
+.about{
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
 
-
+}
+.abt-content{
+    padding: 150px 160px;
+    
+    
+}
+.abt-con-body{
+    background-color: white;
+    text-align: center;
+}
+.abt-foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+.data{
+    font-weight: bold;
+    color: black;
 }
