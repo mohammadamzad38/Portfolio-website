@@ -1,3 +1,6 @@
+.check * {
+    border: 0.1px solid black!important;
+}
 .open-sans-uniquifier {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -108,9 +111,9 @@ p{
     height: 676px;
 }
 
-/* Section style */
+/* Section -02 style */
 main {
-    background: white;
+    background: rgb(247 247 247);
 }
 #body-conten {
     margin: 0 auto;
@@ -139,4 +142,95 @@ main {
 .data{
     font-weight: bold;
     color: black;
+}
+
+/* Section -03 Style */
+.parent-sec{
+    margin-top: 130px;
+}
+
+.skill-head h2{
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 0px;
+}
+.skill-pera{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.skill-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+   
+}
+.skill-card{
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+/* 3rd section Style */
+.resume{
+    text-align: center;
+    margin-top: 130px;
+}
+.last-parent{
+    display: flex;
+    padding-top: 80px;
+    
+
+}
+.education{
+    align-items: start;
+    margin: 0px 50px;
+    justify-content: space-between;
+}
+#d-load{
+
+    margin: 0px 700px;
+    padding-bottom: 131px;
+}
+.dn {
+    background-color: #FD6E0A;
+    font-family: Open Sans;
+    font-weight: 700px;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+/* Footer */
+
+#submit-btn {
+    background-color: #FD6E0A;
+    font-family: Open Sans;
+    font-weight: 700px;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+.foot-section{
+    background-color: rgb(255, 248, 243);
+    
+}
+.footer-head{
+    display: flex;
+    margin: 130px 230px;
+    justify-content: space-between;
+
+}
+.input{
+    gap: 200px;
+}
+.foter-left .footer-right{  
+    width: 500px;
+
 }
